@@ -42,4 +42,9 @@ public void alterarnome(String nomePar) {
     this.nomeAt = nomePar;
 }
 
+public void exibirInfo() {
+    System.out.println("ID: " + idAt);
+    System.out.println("Nome: " + nomeAt);
+    System.out.println("Idade: " + idadeAt);
+}
 }
